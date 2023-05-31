@@ -1,0 +1,43 @@
+.menu{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem 0;
+    font-family: var(--fonte-titulo);
+    font-size: 1.5rem;
+    color: var(--cor-segundaria);
+    width: 80%;
+    margin: auto;
+}
+
+.header{
+    background-image: url("../../assets/header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__text{
+        color: white;
+        font-size: 3rem;
+        min-width: 400px;
+    }
+}
+
+.cardapio{
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0;
+    &__titulo{
+        font-size: 2rem;
+        font-family: var(--fonte-titulo);
+        padding-bottom: 2rem;
+        color: var(--cor-primaria);
+    }
+    &__filtros{
+        padding: 2rem 0;
+        display: flex;
+        justify-content: space-between;
+    }
+}

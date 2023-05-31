@@ -1,0 +1,23 @@
+.filtros {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    &__filtro {
+        background-color: #acabab;
+        width: 6rem;
+        padding: .5rem 0;
+        border-radius: 5px;
+        font-weight: 600;
+        color: #4c4d5e;
+
+        &--ativo {
+            background-color: var(--cor-terciaria);
+            color: white;
+        }
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+}

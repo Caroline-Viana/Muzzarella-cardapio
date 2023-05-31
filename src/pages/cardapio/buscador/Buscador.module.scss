@@ -1,0 +1,20 @@
+.buscador{
+    background-color: #acabab;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5rem;
+    border-radius: 20px;
+    padding: 1rem;
+    &__area{
+        background-color: transparent;
+        border: none;
+        width: 90%;
+        outline: none;
+        font-size: 1rem;
+        &::placeholder {
+            color: #4c4d5e;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.ordenador {
+    display: flex;
+    align-items: center;
+    min-width: 12rem;
+    justify-content: space-between;
+    padding: 0 2rem;
+    position: relative;
+    background-color: #acabab;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4c4d5e;
+
+    &--ativo {
+        background-color: var(--cor-terciaria);
+        color: white;
+    }
+
+    &__options {
+        display: none;
+        position: absolute;
+        left: 0;
+        flex-direction: column;
+        top: 100%;
+        width: 100%;
+
+        &--ativo {
+            display: flex;
+        }
+    }
+
+    &__option {
+        align-items: center;
+        background-color: #d1cfcf;
+        border-top: 2px solid #ffffff;
+        box-sizing: border-box;
+        color: #000;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        width: inherit;
+
+        &:hover,
+        &--ativo {
+            background-color: var(--cor-terciaria);
+            cursor: pointer;
+            color: white;
+        }
+    }
+}
