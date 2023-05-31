@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import cardapio from './itens.json'
 import Item from './item/Item'
 import styles from './Itens.module.scss';
