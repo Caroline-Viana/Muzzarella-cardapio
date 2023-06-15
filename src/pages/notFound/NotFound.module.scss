@@ -1,0 +1,35 @@
+.notFound{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__texto{
+        font-size: 28px;
+        font-family: var(--fonte-titulo);
+        color: var(--cor-segundaria);
+        padding: 2rem 0;
+    }
+
+    .voltar{
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        border-radius: 15px;
+        background-color: var(--cor-segundaria);
+        padding: .5rem 2rem;
+
+        &, button:hover{
+            cursor: pointer;
+        }
+    }
+
+    &__imagem{
+        display: flex;
+        justify-content: center;
+        .notFound__img{
+            width: 60%;
+        }
+    }
+}

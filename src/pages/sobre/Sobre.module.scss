@@ -1,0 +1,39 @@
+.sobre{
+    width: 80%;
+    margin: auto;
+
+    &__titulo{
+        font-size: 2rem;
+        font-family: var(--fonte-titulo);
+        color: var(--cor-quartenaria);
+        padding: 2rem 0;
+    }
+
+    &__conteudo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .sobre__img{
+            width: 46%;
+        }
+        .sobre__texto{
+            width: 46%;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            text-align: center;
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .imagens{
+        display: flex;
+        margin: 3rem 0;
+        justify-content: space-between;
+        &__imagem{
+            width: 46%;
+        }
+    }
+}

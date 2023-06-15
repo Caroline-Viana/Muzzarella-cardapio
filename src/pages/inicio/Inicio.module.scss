@@ -1,0 +1,53 @@
+.container{
+    width: 80%;
+    margin: auto;
+
+    .titulo{
+    font-size: 2rem;
+    font-family: var(--fonte-titulo);
+    color: var(--cor-quartenaria);
+    padding: 2rem 0;
+    }
+
+    .recomendados{
+        display: flex;
+        justify-content: space-between;
+
+        .recomendado{
+            margin-bottom: 2rem;
+            &__img{
+                width: 300px;
+                img {
+                    border-radius: 8px;
+                    width: 100%;
+                }
+            }
+            &__botao{
+                background-color: var(--cor-quartenaria);
+                width: 100%;
+                color: white;
+                padding: 0.5rem 0;
+                margin-top: 1rem;
+                border-radius: 5px;
+                transition: 0.5s;
+                cursor: pointer;
+                &:hover{
+                    background-color: var(--cor-terciaria);
+                }
+            }
+        }
+    }
+
+    .nossaCasa{
+        &__img{
+            width: 100%;
+        }
+        &__endereco{
+            margin: 2rem 0;
+            padding: 0 1rem;
+            font-size: 20px;
+            border-left: 3px solid var(--cor-quartenaria);
+        }
+    }
+}
+

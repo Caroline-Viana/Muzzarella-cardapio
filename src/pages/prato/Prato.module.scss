@@ -1,0 +1,95 @@
+.prato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+    margin: auto;
+    .voltar{
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        border-radius: 15px;
+        background-color: var(--cor-segundaria);
+        padding: .5rem 2rem;
+    
+        &, button:hover{
+            cursor: pointer;
+        }
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 3rem;
+
+        .titulo{
+            font-size: 36px;
+            color: var(--cor-primaria);
+        }
+
+        .imagem{
+            width: 400px;
+        }
+
+        .conteudo{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            &__descricao{
+                font-size: 18px;
+                font-weight: 600;
+                color: #797878;
+            }
+
+            .tags {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                max-width: 700px;
+
+                &__tipo {
+                    align-items: center;
+                    border-radius: 2px;
+                    display: flex;
+                    font-weight: bold;
+                    height: 40px;
+                    justify-content: center;
+                    padding: 10px 30px;
+                    &__massas {
+                      background-color: var(--cor-segundaria);
+                      color: white;
+                    }
+                    &__carnes {
+                      background-color: #30201e;
+                      color: white;
+                    }
+                    &__combos {
+                      background-color: #e6c864;
+                    }
+                    &__veganos {
+                      background-color: #80aa40;
+                    }
+                }
+                
+                &__porcao,
+                &__qtdpessoas,
+                &__valor {
+                    align-items: center;
+                    display: flex;
+                    font-size: 1.25rem;
+                    font-weight: bold;
+                    justify-content: center;
+                }
+
+                &__valor {
+                    color: var(--cor-primaria);
+                    font-size: 1.7rem;
+                }
+            }
+        }
+    }
+}

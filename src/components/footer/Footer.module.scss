@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: var(--cor-segundaria);
+    justify-content: center;
+    padding: 1rem;
+    &__img{
+        width: 4%;
+    }
+
+    &__titutlo{
+        font-size: 24px;
+        font-family: var(--fonte-titulo);
+        color: #fff;
+    }
+}
