@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Sobre.module.scss';
 import casa from '../../assets/casa.png';
 import massa1 from '../../assets/massa1.png';

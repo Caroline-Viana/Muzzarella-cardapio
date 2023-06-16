@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './NotFound.module.scss';
 import error from '../../assets/404 Error-pana.png';
 import { useNavigate } from 'react-router-dom';

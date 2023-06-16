@@ -12,6 +12,7 @@
         border-radius: 15px;
         background-color: var(--cor-segundaria);
         padding: .5rem 2rem;
+        margin-top: 2rem;
     
         &, button:hover{
             cursor: pointer;
@@ -37,6 +38,8 @@
         .conteudo{
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
             gap: 1rem;
 
             &__descricao{
@@ -48,7 +51,7 @@
             .tags {
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                gap: 2rem;
                 max-width: 700px;
 
                 &__tipo {

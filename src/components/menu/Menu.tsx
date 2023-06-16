@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Menu.module.scss';
 import logo from '/src/assets/logo.svg';
 import { Link } from 'react-router-dom';

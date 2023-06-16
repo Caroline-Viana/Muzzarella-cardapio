@@ -2,6 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     width: 90%;
+    padding: 2rem;
+    transition: .5s;
+    &:hover{
+      background-color: #e4e4e4;
+      cursor: pointer;
+    }
     &__imagem {
       min-width: 240px;
       img {
